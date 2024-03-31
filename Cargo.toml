@@ -1,6 +1,10 @@
 [workspace]
 resolver = "2"
-members = ["./packages/backend/storage"]
+members = [
+  "./packages/frontend/native",
+  "./packages/frontend/native/schema",
+  "./packages/backend/storage",
+]
 
 [profile.dev.package.sqlx-macros]
 opt-level = 3
