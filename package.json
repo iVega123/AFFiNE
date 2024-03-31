@@ -19,7 +19,7 @@
   "scripts": {
     "dev": "yarn workspace @affine/cli dev",
     "dev:electron": "yarn workspace @affine/electron dev",
-    "build": "yarn nx build @affine/web",
+    "build": "yarn workspace @affine/storage build",
     "build:electron": "yarn nx build @affine/electron",
     "build:storage": "yarn nx run-many -t build -p @affine/storage",
     "build:storybook": "yarn nx build @affine/storybook",
